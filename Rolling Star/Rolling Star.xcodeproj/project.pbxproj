@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCBDA0B319664EED00E3DAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0B219664EED00E3DAF5 /* Foundation.framework */; };
+		FCBDA0B519664EED00E3DAF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0B419664EED00E3DAF5 /* CoreGraphics.framework */; };
+		FCBDA0B719664EED00E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0B619664EED00E3DAF5 /* UIKit.framework */; };
+		FCBDA0B919664EED00E3DAF5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0B819664EED00E3DAF5 /* SpriteKit.framework */; };
+		FCBDA0BF19664EED00E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0BD19664EED00E3DAF5 /* InfoPlist.strings */; };
+		FCBDA0C119664EED00E3DAF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0C019664EED00E3DAF5 /* main.m */; };
+		FCBDA0C519664EED00E3DAF5 /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0C419664EED00E3DAF5 /* BGMAppDelegate.m */; };
+		FCBDA0C819664EED00E3DAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0C619664EED00E3DAF5 /* Main.storyboard */; };
+		FCBDA0CB19664EED00E3DAF5 /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0CA19664EED00E3DAF5 /* BGMViewController.m */; };
+		FCBDA0CE19664EED00E3DAF5 /* BGMMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0CD19664EED00E3DAF5 /* BGMMyScene.m */; };
+		FCBDA0D019664EED00E3DAF5 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0CF19664EED00E3DAF5 /* Spaceship.png */; };
+		FCBDA0D219664EED00E3DAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0D119664EED00E3DAF5 /* Images.xcassets */; };
+		FCBDA0D919664EED00E3DAF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0D819664EED00E3DAF5 /* XCTest.framework */; };
+		FCBDA0DA19664EED00E3DAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0B219664EED00E3DAF5 /* Foundation.framework */; };
+		FCBDA0DB19664EED00E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0B619664EED00E3DAF5 /* UIKit.framework */; };
+		FCBDA0E319664EED00E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0E119664EED00E3DAF5 /* InfoPlist.strings */; };
+		FCBDA0E519664EED00E3DAF5 /* Rolling_StarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0E419664EED00E3DAF5 /* Rolling_StarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCBDA0DC19664EED00E3DAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBDA0A719664EED00E3DAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBDA0AE19664EED00E3DAF5;
+			remoteInfo = "Rolling Star";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCBDA0AF19664EED00E3DAF5 /* Rolling Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rolling Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA0B219664EED00E3DAF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCBDA0B419664EED00E3DAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCBDA0B619664EED00E3DAF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCBDA0B819664EED00E3DAF5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FCBDA0BC19664EED00E3DAF5 /* Rolling Star-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rolling Star-Info.plist"; sourceTree = "<group>"; };
+		FCBDA0BE19664EED00E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCBDA0C019664EED00E3DAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCBDA0C219664EED00E3DAF5 /* Rolling Star-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rolling Star-Prefix.pch"; sourceTree = "<group>"; };
+		FCBDA0C319664EED00E3DAF5 /* BGMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMAppDelegate.h; sourceTree = "<group>"; };
+		FCBDA0C419664EED00E3DAF5 /* BGMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMAppDelegate.m; sourceTree = "<group>"; };
+		FCBDA0C719664EED00E3DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCBDA0C919664EED00E3DAF5 /* BGMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMViewController.h; sourceTree = "<group>"; };
+		FCBDA0CA19664EED00E3DAF5 /* BGMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMViewController.m; sourceTree = "<group>"; };
+		FCBDA0CC19664EED00E3DAF5 /* BGMMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMMyScene.h; sourceTree = "<group>"; };
+		FCBDA0CD19664EED00E3DAF5 /* BGMMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMMyScene.m; sourceTree = "<group>"; };
+		FCBDA0CF19664EED00E3DAF5 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FCBDA0D119664EED00E3DAF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCBDA0D719664EED00E3DAF5 /* Rolling StarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rolling StarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA0D819664EED00E3DAF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCBDA0E019664EED00E3DAF5 /* Rolling StarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rolling StarTests-Info.plist"; sourceTree = "<group>"; };
+		FCBDA0E219664EED00E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCBDA0E419664EED00E3DAF5 /* Rolling_StarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rolling_StarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBDA0AC19664EED00E3DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0B519664EED00E3DAF5 /* CoreGraphics.framework in Frameworks */,
+				FCBDA0B719664EED00E3DAF5 /* UIKit.framework in Frameworks */,
+				FCBDA0B919664EED00E3DAF5 /* SpriteKit.framework in Frameworks */,
+				FCBDA0B319664EED00E3DAF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA0D419664EED00E3DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0D919664EED00E3DAF5 /* XCTest.framework in Frameworks */,
+				FCBDA0DB19664EED00E3DAF5 /* UIKit.framework in Frameworks */,
+				FCBDA0DA19664EED00E3DAF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBDA0A619664EED00E3DAF5 = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0BA19664EED00E3DAF5 /* Rolling Star */,
+				FCBDA0DE19664EED00E3DAF5 /* Rolling StarTests */,
+				FCBDA0B119664EED00E3DAF5 /* Frameworks */,
+				FCBDA0B019664EED00E3DAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBDA0B019664EED00E3DAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0AF19664EED00E3DAF5 /* Rolling Star.app */,
+				FCBDA0D719664EED00E3DAF5 /* Rolling StarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBDA0B119664EED00E3DAF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0B219664EED00E3DAF5 /* Foundation.framework */,
+				FCBDA0B419664EED00E3DAF5 /* CoreGraphics.framework */,
+				FCBDA0B619664EED00E3DAF5 /* UIKit.framework */,
+				FCBDA0B819664EED00E3DAF5 /* SpriteKit.framework */,
+				FCBDA0D819664EED00E3DAF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCBDA0BA19664EED00E3DAF5 /* Rolling Star */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0C319664EED00E3DAF5 /* BGMAppDelegate.h */,
+				FCBDA0C419664EED00E3DAF5 /* BGMAppDelegate.m */,
+				FCBDA0C619664EED00E3DAF5 /* Main.storyboard */,
+				FCBDA0C919664EED00E3DAF5 /* BGMViewController.h */,
+				FCBDA0CA19664EED00E3DAF5 /* BGMViewController.m */,
+				FCBDA0CC19664EED00E3DAF5 /* BGMMyScene.h */,
+				FCBDA0CD19664EED00E3DAF5 /* BGMMyScene.m */,
+				FCBDA0CF19664EED00E3DAF5 /* Spaceship.png */,
+				FCBDA0D119664EED00E3DAF5 /* Images.xcassets */,
+				FCBDA0BB19664EED00E3DAF5 /* Supporting Files */,
+			);
+			path = "Rolling Star";
+			sourceTree = "<group>";
+		};
+		FCBDA0BB19664EED00E3DAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0BC19664EED00E3DAF5 /* Rolling Star-Info.plist */,
+				FCBDA0BD19664EED00E3DAF5 /* InfoPlist.strings */,
+				FCBDA0C019664EED00E3DAF5 /* main.m */,
+				FCBDA0C219664EED00E3DAF5 /* Rolling Star-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCBDA0DE19664EED00E3DAF5 /* Rolling StarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0E419664EED00E3DAF5 /* Rolling_StarTests.m */,
+				FCBDA0DF19664EED00E3DAF5 /* Supporting Files */,
+			);
+			path = "Rolling StarTests";
+			sourceTree = "<group>";
+		};
+		FCBDA0DF19664EED00E3DAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0E019664EED00E3DAF5 /* Rolling StarTests-Info.plist */,
+				FCBDA0E119664EED00E3DAF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBDA0AE19664EED00E3DAF5 /* Rolling Star */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA0E819664EED00E3DAF5 /* Build configuration list for PBXNativeTarget "Rolling Star" */;
+			buildPhases = (
+				FCBDA0AB19664EED00E3DAF5 /* Sources */,
+				FCBDA0AC19664EED00E3DAF5 /* Frameworks */,
+				FCBDA0AD19664EED00E3DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rolling Star";
+			productName = "Rolling Star";
+			productReference = FCBDA0AF19664EED00E3DAF5 /* Rolling Star.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCBDA0D619664EED00E3DAF5 /* Rolling StarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA0EB19664EED00E3DAF5 /* Build configuration list for PBXNativeTarget "Rolling StarTests" */;
+			buildPhases = (
+				FCBDA0D319664EED00E3DAF5 /* Sources */,
+				FCBDA0D419664EED00E3DAF5 /* Frameworks */,
+				FCBDA0D519664EED00E3DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBDA0DD19664EED00E3DAF5 /* PBXTargetDependency */,
+			);
+			name = "Rolling StarTests";
+			productName = "Rolling StarTests";
+			productReference = FCBDA0D719664EED00E3DAF5 /* Rolling StarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBDA0A719664EED00E3DAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BGM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "馬 岩";
+				TargetAttributes = {
+					FCBDA0D619664EED00E3DAF5 = {
+						TestTargetID = FCBDA0AE19664EED00E3DAF5;
+					};
+				};
+			};
+			buildConfigurationList = FCBDA0AA19664EED00E3DAF5 /* Build configuration list for PBXProject "Rolling Star" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCBDA0A619664EED00E3DAF5;
+			productRefGroup = FCBDA0B019664EED00E3DAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBDA0AE19664EED00E3DAF5 /* Rolling Star */,
+				FCBDA0D619664EED00E3DAF5 /* Rolling StarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBDA0AD19664EED00E3DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0BF19664EED00E3DAF5 /* InfoPlist.strings in Resources */,
+				FCBDA0D219664EED00E3DAF5 /* Images.xcassets in Resources */,
+				FCBDA0D019664EED00E3DAF5 /* Spaceship.png in Resources */,
+				FCBDA0C819664EED00E3DAF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA0D519664EED00E3DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0E319664EED00E3DAF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBDA0AB19664EED00E3DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0C119664EED00E3DAF5 /* main.m in Sources */,
+				FCBDA0CE19664EED00E3DAF5 /* BGMMyScene.m in Sources */,
+				FCBDA0C519664EED00E3DAF5 /* BGMAppDelegate.m in Sources */,
+				FCBDA0CB19664EED00E3DAF5 /* BGMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA0D319664EED00E3DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0E519664EED00E3DAF5 /* Rolling_StarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCBDA0DD19664EED00E3DAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBDA0AE19664EED00E3DAF5 /* Rolling Star */;
+			targetProxy = FCBDA0DC19664EED00E3DAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCBDA0BD19664EED00E3DAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA0BE19664EED00E3DAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCBDA0C619664EED00E3DAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA0C719664EED00E3DAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCBDA0E119664EED00E3DAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA0E219664EED00E3DAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCBDA0E619664EED00E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCBDA0E719664EED00E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBDA0E919664EED00E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rolling Star/Rolling Star-Prefix.pch";
+				INFOPLIST_FILE = "Rolling Star/Rolling Star-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCBDA0EA19664EED00E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rolling Star/Rolling Star-Prefix.pch";
+				INFOPLIST_FILE = "Rolling Star/Rolling Star-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCBDA0EC19664EED00E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rolling Star.app/Rolling Star";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rolling Star/Rolling Star-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rolling StarTests/Rolling StarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCBDA0ED19664EED00E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rolling Star.app/Rolling Star";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rolling Star/Rolling Star-Prefix.pch";
+				INFOPLIST_FILE = "Rolling StarTests/Rolling StarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBDA0AA19664EED00E3DAF5 /* Build configuration list for PBXProject "Rolling Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA0E619664EED00E3DAF5 /* Debug */,
+				FCBDA0E719664EED00E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDA0E819664EED00E3DAF5 /* Build configuration list for PBXNativeTarget "Rolling Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA0E919664EED00E3DAF5 /* Debug */,
+				FCBDA0EA19664EED00E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCBDA0EB19664EED00E3DAF5 /* Build configuration list for PBXNativeTarget "Rolling StarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA0EC19664EED00E3DAF5 /* Debug */,
+				FCBDA0ED19664EED00E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBDA0A719664EED00E3DAF5 /* Project object */;
+}
