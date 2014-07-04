@@ -24,6 +24,8 @@
 		FCBDA0DB19664EED00E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0B619664EED00E3DAF5 /* UIKit.framework */; };
 		FCBDA0E319664EED00E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0E119664EED00E3DAF5 /* InfoPlist.strings */; };
 		FCBDA0E519664EED00E3DAF5 /* Rolling_StarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0E419664EED00E3DAF5 /* Rolling_StarTests.m */; };
+		FCBDA0F01966807800E3DAF5 /* BGMBallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0EF1966807800E3DAF5 /* BGMBallNode.m */; };
+		FCBDA0F31966830B00E3DAF5 /* BGMStarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0F21966830B00E3DAF5 /* BGMStarNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		FCBDA0E019664EED00E3DAF5 /* Rolling StarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rolling StarTests-Info.plist"; sourceTree = "<group>"; };
 		FCBDA0E219664EED00E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCBDA0E419664EED00E3DAF5 /* Rolling_StarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rolling_StarTests.m; sourceTree = "<group>"; };
+		FCBDA0EE1966807800E3DAF5 /* BGMBallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMBallNode.h; sourceTree = "<group>"; };
+		FCBDA0EF1966807800E3DAF5 /* BGMBallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMBallNode.m; sourceTree = "<group>"; };
+		FCBDA0F11966830B00E3DAF5 /* BGMStarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMStarNode.h; sourceTree = "<group>"; };
+		FCBDA0F21966830B00E3DAF5 /* BGMStarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMStarNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,10 @@
 				FCBDA0CA19664EED00E3DAF5 /* BGMViewController.m */,
 				FCBDA0CC19664EED00E3DAF5 /* BGMMyScene.h */,
 				FCBDA0CD19664EED00E3DAF5 /* BGMMyScene.m */,
+				FCBDA0EE1966807800E3DAF5 /* BGMBallNode.h */,
+				FCBDA0EF1966807800E3DAF5 /* BGMBallNode.m */,
+				FCBDA0F11966830B00E3DAF5 /* BGMStarNode.h */,
+				FCBDA0F21966830B00E3DAF5 /* BGMStarNode.m */,
 				FCBDA0CF19664EED00E3DAF5 /* Spaceship.png */,
 				FCBDA0D119664EED00E3DAF5 /* Images.xcassets */,
 				FCBDA0BB19664EED00E3DAF5 /* Supporting Files */,
@@ -263,10 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBDA0F31966830B00E3DAF5 /* BGMStarNode.m in Sources */,
 				FCBDA0C119664EED00E3DAF5 /* main.m in Sources */,
 				FCBDA0CE19664EED00E3DAF5 /* BGMMyScene.m in Sources */,
 				FCBDA0C519664EED00E3DAF5 /* BGMAppDelegate.m in Sources */,
 				FCBDA0CB19664EED00E3DAF5 /* BGMViewController.m in Sources */,
+				FCBDA0F01966807800E3DAF5 /* BGMBallNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
