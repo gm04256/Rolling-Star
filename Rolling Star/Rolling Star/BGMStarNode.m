@@ -40,6 +40,7 @@
 	CGMutablePathRef starPath = CGPathCreateMutable();
 	
 	CGPathMoveToPoint(starPath, &CGAffineTransformIdentity, 0, outerRadius);
+	
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, innerRadius * cos(54.0 / 180 * M_PI), innerRadius * sin(54.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, outerRadius * cos(18.0 / 180 * M_PI), outerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, innerRadius * cos(18.0 / 180 * M_PI), -innerRadius * sin(18.0 / 180 * M_PI));
@@ -66,6 +67,7 @@
 	CGMutablePathRef starPath = CGPathCreateMutable();
 	
 	CGPathMoveToPoint(starPath, &CGAffineTransformIdentity, 0, outerRadius);
+	
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, innerRadius * cos(54.0 / 180 * M_PI), innerRadius * sin(54.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, outerRadius * cos(18.0 / 180 * M_PI), outerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, innerRadius * cos(18.0 / 180 * M_PI), -innerRadius * sin(18.0 / 180 * M_PI));
@@ -78,7 +80,7 @@
 //	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, 0, outerRadius);
 	CGPathCloseSubpath(starPath);
 	
-	SKPhysicsBody * starBody = [SKPhysicsBody bodyWithEdgeChainFromPath:starPath];
+	SKPhysicsBody * starBody = [SKPhysicsBody bodyWithEdgeLoopFromPath:starPath];
 
 	self.physicsBody = starBody;
 }
