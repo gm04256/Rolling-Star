@@ -35,7 +35,7 @@
 //	myNode.glowWidth = 3;
 	
 	// init path
-	float outerRadius = 100;
+	float outerRadius = 70;
 	float innerRadius = outerRadius * 0.4;
 	CGMutablePathRef starPath = CGPathCreateMutable();
 	
@@ -46,7 +46,7 @@
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, innerRadius * cos(18.0 / 180 * M_PI), -innerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, outerRadius * cos(54.0 / 180 * M_PI), -outerRadius * sin(54.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, 0, -innerRadius);
-	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -outerRadius * cos(54.0 / 180 * M_PI), -100 * sin(54.0 / 180 * M_PI));
+	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -outerRadius * cos(54.0 / 180 * M_PI), -outerRadius * sin(54.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -innerRadius * cos(18.0 / 180 * M_PI), -innerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -outerRadius * cos(18.0 / 180 * M_PI), outerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -innerRadius * cos(54.0 / 180 * M_PI), innerRadius * sin(54.0 / 180 * M_PI));
@@ -62,7 +62,7 @@
 - (void)initBody
 {
 	// init physics body
-	float outerRadius = 100;
+	float outerRadius = 70;
 	float innerRadius = outerRadius * 0.4;
 	CGMutablePathRef starPath = CGPathCreateMutable();
 	
@@ -73,7 +73,7 @@
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, innerRadius * cos(18.0 / 180 * M_PI), -innerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, outerRadius * cos(54.0 / 180 * M_PI), -outerRadius * sin(54.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, 0, -innerRadius);
-	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -outerRadius * cos(54.0 / 180 * M_PI), -100 * sin(54.0 / 180 * M_PI));
+	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -outerRadius * cos(54.0 / 180 * M_PI), -outerRadius * sin(54.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -innerRadius * cos(18.0 / 180 * M_PI), -innerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -outerRadius * cos(18.0 / 180 * M_PI), outerRadius * sin(18.0 / 180 * M_PI));
 	CGPathAddLineToPoint(starPath, &CGAffineTransformIdentity, -innerRadius * cos(54.0 / 180 * M_PI), innerRadius * sin(54.0 / 180 * M_PI));

@@ -29,7 +29,7 @@
 	
 	myNode.strokeColor = [SKColor orangeColor];
 	myNode.fillColor = [SKColor blueColor];
-	myNode.lineWidth = 5;
+	myNode.lineWidth = 2;
 	myNode.antialiased = YES;
 //	myNode.glowWidth = 3;
 	

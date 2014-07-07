@@ -30,10 +30,22 @@
         self.backgroundColor = [SKColor blackColor];
         
 		// add star node
-		self.myStar = [[BGMStarNode alloc] init];
+		self.myStar = [SKNode node];
 		
-		self.myStar.position = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2);
-		self.myStar.physicsBody.angularVelocity = 2;
+		BGMStarNode* star1 = [[BGMStarNode alloc] init];
+		star1.position = CGPointMake(self.frame.size.width / 4, self.frame.size.height / 4);
+		star1.physicsBody.angularVelocity = -5;
+		[self.myStar addChild:star1];
+		
+		BGMStarNode* star2 = [[BGMStarNode alloc] init];
+		star2.position = CGPointMake(self.frame.size.width * 3.0 / 4, self.frame.size.height / 2);
+		star2.physicsBody.angularVelocity = 5;
+		[self.myStar addChild:star2];
+		
+		BGMStarNode* star3 = [[BGMStarNode alloc] init];
+		star3.position = CGPointMake(self.frame.size.width / 4, self.frame.size.height * 3.0 / 4);
+		star3.physicsBody.angularVelocity = -5;
+		[self.myStar addChild:star3];
 				
 		[self addChild:self.myStar];
 		
@@ -44,6 +56,7 @@
 			BGMBallNode* myBall = [[BGMBallNode alloc] init];
 			
 			myBall.position = CGPointMake(self.frame.size.width * arc4random() / ARC4RANDOM_MAX, self.frame.size.height);
+			myBall.physicsBody.affectedByGravity = YES;
 			
 			[self.myBalls addChild:myBall];
 		}
@@ -60,15 +73,15 @@
 	{
         CGPoint location = [touch locationInNode:self];
         
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
+//        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
+//        
+//        sprite.position = location;
+//        
+//        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
+//        
+//        [sprite runAction:[SKAction repeatActionForever:action]];
+//        
+//        [self addChild:sprite];
     }
 }
 
